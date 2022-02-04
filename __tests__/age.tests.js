@@ -71,7 +71,7 @@ describe('Age', () => {
 
   test('should return persons age in Jupiter years', () => {
     const age = new Age(30, 80);
-    expect(age.yoJupiter(30, 80)).toEqual(356);
+    expect(age.yoJupiter(30, 80)).toEqual(593);
   });
 
   test('should return persons years over life expectancy in Jupiter years', () => {

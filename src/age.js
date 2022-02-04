@@ -47,6 +47,8 @@ export default class Age {
       return jupiterYears, (jupiterYears - jupiterLifeExpect);
     } else if (jupiterYears < jupiterLifeExpect) {
       return jupiterYears, (jupiterLifeExpect - jupiterYears);
+    } else {
+      return jupiterYears & jupiterLifeExpect;
     }
   }
 }

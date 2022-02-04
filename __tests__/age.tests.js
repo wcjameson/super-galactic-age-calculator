@@ -14,7 +14,7 @@ describe('Age', () => {
     expect(age.yoMercury(40, 85)).toEqual(10);
   });
 
-  test('should return persons years over life expectancy lived in Mercury years', () => {
+  test('should return persons years over life expectancy in Mercury years', () => {
     const age = new Age(100, 45);
     expect(age.yoMercury(100, 45)).toEqual(13);
   });
@@ -32,5 +32,10 @@ describe('Age', () => {
   test('should return person age in Venus years', () => {
     const age = new Age(40, 85);
     expect(age.yoVenus(40, 85)).toEqual(25);
+  });
+
+  test('should return persons years over life expectancy in Venus years', () => {
+    const age = new Age(100, 45);
+    expect(age.yoVenus(100, 45)).toEqual(34)
   });
 });

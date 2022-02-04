@@ -11,6 +11,6 @@ describe('Age', () => {
 
   test('should return persons age in years on Mars', () => {
     const age = new Age(45, 100);
-    expect(age.yoMercury(45, 100)).toEqual(10.8);
+    expect(age.yoMercury(45, 100)).toEqual(11);
   });
 });

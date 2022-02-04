@@ -6,6 +6,9 @@ export default class Age {
 
   yoMercury(personAge, lifeExpect) {
     let mercuryYears = Math.round(personAge * .24);
-    return mercuryYears;
+    let mercuryLifeExpect = Math.round(lifeExpect * .24);
+    if (mercuryYears > mercuryLifeExpect) {
+      return (mercuryYears - mercuryLifeExpect);
+    }
   }
 }

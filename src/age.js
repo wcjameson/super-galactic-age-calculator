@@ -18,6 +18,9 @@ export default class Age {
 
   yoVenus(personAge, lifeExpect) {
     let venusYears = Math.round(personAge * .62);
-    return venusYears;
+    let venusLifeExpect = Math.round(lifeExpect * .62);
+    if (venusYears > venusLifeExpect) {
+      return venusYears, (venusYears - venusLifeExpect);
+    }
   }
 }

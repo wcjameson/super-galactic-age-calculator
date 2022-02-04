@@ -45,6 +45,8 @@ export default class Age {
     let jupiterLifeExpect = Math.round(lifeExpect * 11.86);
     if(jupiterYears > jupiterLifeExpect) {
       return jupiterYears, (jupiterYears - jupiterLifeExpect);
+    } else if (jupiterYears < jupiterLifeExpect) {
+      return jupiterYears, (jupiterLifeExpect - jupiterYears);
     }
   }
 }

@@ -81,6 +81,6 @@ describe('Age', () => {
 
   test('should return years left to live in Jupiter years', () => {
     const age = new Age(40, 90);
-    expect(age.yoMars(40, 90)).toEqual(593);
+    expect(age.yoJupiter(40, 90)).toEqual(593);
   });
 });

@@ -27,4 +27,10 @@ export default class Age {
       return venusYears & venusLifeExpect;
     }
   }
+
+  yoMars(personAge, lifeExpect) {
+    let marsYears = Math.round(personAge * 1.88);
+    let marsLifeExpect = Math.round(lifeExpect * .62);
+    return marsYears;
+  }
 }

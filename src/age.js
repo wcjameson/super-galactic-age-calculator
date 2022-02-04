@@ -12,7 +12,7 @@ export default class Age {
     } else if (mercuryYears < mercuryLifeExpect) {
       return mercuryYears,  (mercuryLifeExpect - mercuryYears);
     } else {
-      return mercuryYears + mercuryLifeExpect;
+      return mercuryYears & mercuryLifeExpect;
     }
   }
 
@@ -23,6 +23,8 @@ export default class Age {
       return venusYears, (venusYears - venusLifeExpect);
     } else if (venusYears < venusLifeExpect) {
       return venusYears, (venusLifeExpect - venusYears);
+    } else {
+      return venusYears & venusLifeExpect;
     }
   }
 }

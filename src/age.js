@@ -9,6 +9,8 @@ export default class Age {
     let mercuryLifeExpect = Math.round(lifeExpect * .24);
     if (mercuryYears > mercuryLifeExpect) {
       return (mercuryYears - mercuryLifeExpect);
+    } else {
+      return mercuryYears;
     }
   }
 }

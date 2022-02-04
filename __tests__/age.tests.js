@@ -18,4 +18,9 @@ describe('Age', () => {
     const age = new Age(100, 45);
     expect(age.yoMercury(100, 45)).toEqual(13);
   });
+
+  test('should return years left to live in Mercury years', () => {
+    const age = new Age(40, 90);
+    excpect(age.yoMercury(45, 100)).toEqual(12);
+  })
 });

@@ -1,39 +1,3 @@
-# Super Galactic Age Calculator
-
-#### A webapp for calculating your galactic age!
-
-#### By William Jameson
-
-## Technologies Used
-
-jQuery
-Bootstrap
-Popper.js
-Webpack
-ESLint
-Jest
-Babel
-
-## Description
-
-* This webapp calculates your age, life expectancy and years left to live based on what planet in the solar system you are visiting!
-The project currently has no user interface!
-
-## Setup/Installation Requirements
-
-* Navigate to the github repository by following the url https://github.com/wcjameson/super-galactic-age-calculator
-* You can clone the repository to your machine by following these steps
-* In your terminal enter the following
-* git clone https://github.com/wcjameson/super-galactic-age-calculator
-* Open the index.html file in your browser
-* Currently this project has no user interface.
-
-## Known Bugs
-
-* No known issues, aside from my poor math skills apparently.
-
-## License
-
 MIT License
 
 Copyright (c) [2022] [William Jameson]
@@ -55,8 +19,3 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
-
-
-## Contact Information
-
-* Contact me at williamjameson90@gmail.com

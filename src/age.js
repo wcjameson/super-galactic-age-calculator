@@ -30,7 +30,9 @@ export default class Age {
 
   yoMars(personAge, lifeExpect) {
     let marsYears = Math.round(personAge * 1.88);
-    let marsLifeExpect = Math.round(lifeExpect * .62);
-    return marsYears;
+    let marsLifeExpect = Math.round(lifeExpect * 1.88);
+    if(marsYears > marsLifeExpect) {
+      return marsYears, (marsYears - marsLifeExpect);
+    }
   }
 }

@@ -46,6 +46,6 @@ describe('Age', () => {
 
   test('should return persons life expectancy in Venus years', () => {
     const age = new Age(85, 85);
-    expect(age.yoMercury(85, 85)).toEqual(85);
+    expect(age.yoMercury(85, 85)).toEqual(53);
   });
 });

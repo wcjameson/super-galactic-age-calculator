@@ -12,7 +12,7 @@ export default class Age {
     } else if (mercuryYears < mercuryLifeExpect) {
       return mercuryYears,  (mercuryLifeExpect - mercuryYears);
     } else {
-      return mercuryYears, lifeExpect;
+      return mercuryYears + mercuryLifeExpect;
     }
   }
 
@@ -21,6 +21,8 @@ export default class Age {
     let venusLifeExpect = Math.round(lifeExpect * .62);
     if (venusYears > venusLifeExpect) {
       return venusYears, (venusYears - venusLifeExpect);
+    } else if (venusYears < venusLifeExpect) {
+      return venusYears, (venusLifeExpect - venusYears);
     }
   }
 }

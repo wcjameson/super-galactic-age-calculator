@@ -43,6 +43,8 @@ export default class Age {
   yoJupiter(personAge, lifeExpect) {
     let jupiterYears = Math.round(personAge * 11.86);
     let jupiterLifeExpect = Math.round(lifeExpect * 11.86);
-    return jupiterYears;
+    if(jupiterYears > jupiterLifeExpect) {
+      return jupiterYears, (jupiterYears - jupiterLifeExpect);
+    }
   }
 }

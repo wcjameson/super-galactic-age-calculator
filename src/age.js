@@ -33,6 +33,8 @@ export default class Age {
     let marsLifeExpect = Math.round(lifeExpect * 1.88);
     if(marsYears > marsLifeExpect) {
       return marsYears, (marsYears - marsLifeExpect);
+    } else if (marsYears < marsLifeExpect) {
+      return marsYears, (marsLifeExpect - marsYears);
     }
   }
 }

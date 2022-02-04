@@ -39,4 +39,9 @@ export default class Age {
       return marsYears & marsLifeExpect;
     }
   }
+
+  yoJupiter(personAge, lifeExpect) {
+    let jupiterYears = Math.round(personAge * 11.86);
+    return jupiterYears;
+  }
 }

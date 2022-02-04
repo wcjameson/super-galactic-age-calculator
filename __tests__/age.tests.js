@@ -71,6 +71,6 @@ describe('Age', () => {
 
   test('should return persons age in Jupiter years', () => {
     const age = new Age(30, 80);
-    expect(age.yoMars(30, 80)).toEqual(356);
+    expect(age.yoJupiter(30, 80)).toEqual(356);
   });
 });

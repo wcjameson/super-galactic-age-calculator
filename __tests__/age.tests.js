@@ -23,4 +23,9 @@ describe('Age', () => {
     const age = new Age(40, 90);
     expect(age.yoMercury(40, 90)).toEqual(12);
   });
+
+  test('should return person age in Venus years', () => {
+    const age = new Age(40, 85);
+    expect(age.yoVenus(40, 85)).toEqual(25);
+  });
 });

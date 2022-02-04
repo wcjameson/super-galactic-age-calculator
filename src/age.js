@@ -35,6 +35,8 @@ export default class Age {
       return marsYears, (marsYears - marsLifeExpect);
     } else if (marsYears < marsLifeExpect) {
       return marsYears, (marsLifeExpect - marsYears);
+    } else {
+      return marsYears & marsLifeExpect;
     }
   }
 }

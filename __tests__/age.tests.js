@@ -58,4 +58,9 @@ describe('Age', () => {
     const age = new Age(100, 45);
     expect(age.yoMars(100, 45)).toEqual(103);
   });
+
+  test('should return years left to live in Mars years', () => {
+    const age = new Age(40, 90);
+    expect(age.yoMars(40, 90)).toEqual(31);
+  });
 });

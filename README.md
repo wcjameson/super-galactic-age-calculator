@@ -17,7 +17,7 @@ Babel
 ## Description
 
 * This webapp calculates your age, life expectancy and years left to live based on what planet in the solar system you are visiting!
-The project currently has no user interface!
+The user interface for this project is under construction and therefore not currently useable.
 
 ## Setup/Installation Requirements
 
@@ -26,7 +26,7 @@ The project currently has no user interface!
 * In your terminal enter the following
 * git clone https://github.com/wcjameson/super-galactic-age-calculator
 * Open the index.html file in your browser
-* Currently this project has no user interface.
+* Currently the user interface is not operational.
 
 ## Known Bugs
 

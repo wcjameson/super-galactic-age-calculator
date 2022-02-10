@@ -26,10 +26,11 @@ The user interface for this project is under construction and therefore not curr
 * In your terminal enter the following
 * git clone https://github.com/wcjameson/super-galactic-age-calculator
 * All needed dependencies should be listed in package.json file
-* Open your terminal in the project directory and enter the following
+* Open the project in your terminal and enter the following in the root level directory
 * npm install
-* That should install everything you need for this project
-* Open the index.html file in your browser
+* npm run build
+* npm test
+* That should install and compile everything you need for this project, as well as run tests
 * Currently the user interface is not operational
 
 ## Known Bugs
